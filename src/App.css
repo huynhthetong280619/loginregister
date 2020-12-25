@@ -44,10 +44,10 @@ section .container .user .formBx{
   align-items: center;
 }
 
-section .container .user .formBx form{
+section .container .user .formBx div{
   padding: 10px;
 }
-section .container .user .formBx form h2{
+section .container .user .formBx div h2{
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
@@ -59,7 +59,7 @@ section .container .user .formBx form h2{
 }
 
 
-section .container .user .formBx form input{
+section .container .user .formBx div input{
   position: relative;
   width: 95%;
   padding: 10px;
@@ -74,11 +74,11 @@ section .container .user .formBx form input{
   font-weight: 300;
 }
 
-section .container .user .formBx form div{
+section .container .user .formBx div div{
   text-align: center;
 }
 
-section .container .user .formBx form div button{
+section .container .user .formBx div div button{
   width: 100px;
   background: #677eff;
   color: #fff;

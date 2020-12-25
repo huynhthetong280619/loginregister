@@ -13,7 +13,10 @@ class FormLoginRegister extends React.Component {
                 <div className="user signinBx">
                     <div className="imgBx" style={{ width: 400, height: 500, background: '#ff4000' }}></div>
                     <div className="formBx">
-                        <form>
+                        <div style={{
+                            display: 'block',
+                            marginTop: '0em'
+                        }}>
                             <h2>Sign In</h2>
                             <input type="text" name="" placeholder="Enter your code" />
                             <input type="password" name="" placeholder="Enter your password" />
@@ -21,11 +24,12 @@ class FormLoginRegister extends React.Component {
                                 <button>Login</button>
                             </div>
                             <p className="signup">Don't have an account ? <a style={{ cursor: 'pointer' }} onClick={e => this.handleEvent(e)}>Sign Up</a></p>
+
                             <div>
-                                <button style={{marginRight: '25px'}}>Login with Facebook</button>
+                                <button style={{ marginRight: '25px' }}>Login with Facebook</button>
                                 <button>Login with Google</button>
-                            </div>
-                        </form>
+                            </div>                        </div>
+
                     </div>
                 </div>
 
