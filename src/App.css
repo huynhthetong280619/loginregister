@@ -134,3 +134,18 @@ section .container.active .signupBx .imgBx{
   left: 0
 }
 
+.profile{
+  width: 800px;
+  margin: 50px auto;
+  border: 1px solid #cacaca;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.borderInfo{
+  border: 1px solid #cacaca;
+  padding: 5px 5px 5px 15px;
+  width: 328px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
