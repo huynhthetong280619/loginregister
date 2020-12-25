@@ -71,9 +71,9 @@ class Profile extends React.Component {
                         }
                         
                         {
-                            this.state.disabled ? <button className="action" onClick={() => this.setState({ disabled: false })}>Sửa</button>
+                           !this.state.isInsert &&  (this.state.disabled ? <button className="action" onClick={() => this.setState({ disabled: false })}>Sửa</button>
                                 :
-                                <button className="action" onClick={() => { this.updateInfo(); this.setState({ disabled: true }) }}>Cập nhật</button>
+                                <button className="action" onClick={() => { this.updateInfo(); this.setState({ disabled: true }) }}>Cập nhật</button>)
                         }
 
                     </div>
