@@ -94,7 +94,7 @@ section .container .user .formBx div div button{
 }
 
 
-section .container .user .formBx form .signup{
+section .container .user .formBx div .signup{
 position: relative;
 margin-top: 20px;
 font-size: 12px;
@@ -104,7 +104,7 @@ text-transform: uppercase;
 font-weight: 300;
 }
 
-section .container .user .formBx form .signup a{
+section .container .user .formBx div .signup a{
   font-weight: 600;
   text-decoration: none;
   color: #677eff;

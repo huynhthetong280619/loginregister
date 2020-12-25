@@ -35,7 +35,10 @@ class FormLoginRegister extends React.Component {
 
                 <div className="user signupBx">
                     <div className="formBx">
-                        <form>
+                    <div style={{
+                            display: 'block',
+                            marginTop: '0em'
+                        }}>
                             <h2>Create an account</h2>
                             <input type="text" name="" placeholder="Enter your code" />
                             <input type="email" name="" placeholder="Enter your email" />
@@ -47,7 +50,7 @@ class FormLoginRegister extends React.Component {
                             </div>
                             <p className="signup">Already have an account ? <a style={{ cursor: 'pointer' }} onClick={e => this.handleEvent(e)}>Sign In</a></p>
 
-                        </form>
+                        </div>
                     </div>
                     <div className="imgBx" style={{ width: 400, height: 500, background: '#cacaca' }}></div>
 
