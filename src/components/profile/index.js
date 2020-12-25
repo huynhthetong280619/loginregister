@@ -33,7 +33,7 @@ class Profile extends React.Component {
             <div className="profile">
 
                 <div style={{ textAlign: 'center' }}>
-                    <h2>Thông tin chi tiết tài khoản</h2>
+                    {this.state.isInsert ? <h2>Thêm sinh viên</h2> : <h2>Thông tin chi tiết tài khoản</h2>}
                     <div style={{
                         textAlign: 'left', width: '350px',
                         margin: '0 auto'
