@@ -53,7 +53,6 @@ class FormLoginRegister extends React.Component {
                         </div>
                     </div>
                     <div className="imgBx" style={{ width: 400, height: 500, background: '#cacaca' }}></div>
-
                 </div>
             </div>
         </section>
